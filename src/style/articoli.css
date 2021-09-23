@@ -1,0 +1,38 @@
+.articolo{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+.img-articolo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.img-articolo > img{
+    width: 100%;
+}
+
+.info-articolo{
+    width: 50%;
+    text-align: left;
+    padding: 10px;
+}
+
+.titolo-articolo{
+    width: 100%;
+    font-size: large;
+    font-weight: 600;
+}
+
+.autore-articolo{
+    color: #797070;
+    font-size: small;
+}
+
+.container-articoli{
+    width: 50%;
+    margin: auto;
+    min-width: 330px;
+}

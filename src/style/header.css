@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@300&display=swap');
+
+body{
+	background-color: #fde9eb !important;
+	height: 100vh;
+}
+
+.wrapper{
+	min-height: 100%;
+}
+
+#root{
+	min-height: 100%;
+	position: relative;
+}
+
+.contenuto{
+	margin: 0 1rem;
+	padding-bottom: 100px;
+	font-family: "Fira Sans Extra Condensed",sans-serif;
+}
+
+.titolo-pagina{
+	text-align: center;
+	font-size: large;
+	font-weight: bold;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+	padding: 0 !important;
+}
+
+a:hover{
+	color: inherit;
+}
+
+.header{
+	font-size: 1.5rem;
+	text-align: center;
+	background-color: transparent;
+	padding: 15px;
+	position: relative;
+	z-index: 2;
+}
+
+.navTitle{
+	border-bottom: 1px solid rosybrown;
+}
+
+#cartIcon, #userIcon{
+	cursor: pointer;
+	float: right;
+	margin-left : 5px;
+	margin-right : 5px;
+}
+
+#cartIcon img, #userIcon img, #menuIcon img{
+	vertical-align : middle;
+}
+
+#menuIcon{
+	cursor: pointer;
+	float: left;
+	margin-left : 5px;
+	margin-right : 5px;
+}
+
+#invisivbleIcon{
+	opacity: 0;
+	float: left;
+	margin-left : 5px;
+	margin-right : 5px;
+}
+
+.menu{
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-size: large;
+	font-weight: 700;
+	padding: 0 10px;
+	line-height: 32px;
+	position: relative;
+	z-index: 1;
+	display: flex;
+	overflow: auto;
+}
+
+.menu-element{
+	margin: 0 10px;
+	white-space: nowrap;
+}
+
+.caricamento{
+	text-align: center;
+}
